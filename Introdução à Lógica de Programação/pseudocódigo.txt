@@ -1,0 +1,23 @@
+exercicio de logica familia de pinguins
+ 
+filhote vermelho sobe
+pai vermelho sobe
+atravessa
+pai desse
+atravessa novamente
+filhote verde sobre
+atravessa
+filhote vermelho salta
+atravessa novamente
+pai verde sobe
+atravessa 
+pai verde salta
+atravessa 
+filhote azul sobre
+atravessa
+filhote verde salta
+atravessa
+pai azul sobre
+atravessa
+pai azul salta
+filho azul salta

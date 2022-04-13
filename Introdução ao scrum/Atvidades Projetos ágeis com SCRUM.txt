@@ -1,0 +1,79 @@
+1 Qual a característica de um projeto ágil?
+
+Escopo definido ao longo do projeto.
+
+2 Quais são os pilares do scrum?
+
+Adaptação,Transparência e Inspeção
+
+Papeis e responsabilidades de cada um do time
+
+1 Quem é o responsável por priorizar o Backlog?
+
+Product Owner
+
+2 Quem é o responsável por garantir que o time utilize a melhor forma o SCRUM?
+
+SCRUM MASTER
+
+3 Quem é o responsável por desenhar, construir e entregar o software funcionando?
+
+Time DEV
+
+4 Qual característica melhor descreve uma atividade do PO?
+
+Entende a demanda e extrai o maior valor possível
+
+5 Qual o papel do PO dentro do time? 
+
+Ajuda o time a entender a demanda e tira as dúvidas ao longo da sprint
+
+
+
+Escopo do projeto e prioridades
+
+1 Qual método é mais indicado para definir o Escopo do projeto?
+
+Entender qual o ganho antes de definir o escopo
+
+2 O que compõe um Product Backlog?
+
+Épico e Estória 
+
+3 Qual a importância de mapear Riscos Positivos?
+
+Poder priorizar outros itens no backlog
+
+4 Qual característica melhor descreve uma estória
+
+uma tarefa descrita em nível de negócio
+
+5 O que é uma tarefa?
+
+Um conjunto de atividades que o time de desenvolvimento deve desempenhar para entregar a estória
+
+6 O que é um critério de aceite?
+
+É uma lista de critérios para que a estória atenda aos requisitos do cliente.
+
+7 O que é o Planning Poker
+
+Uma atividade de mensuração do esforço e complexidade das tarefas ou estórias.
+
+rotinas
+
+Quem tem participação obrigatória na Daily?
+
+Time de desenvolvimento apenas
+
+Quem tem participação obrigatória na Retro?
+
+Time de Desenvolvimento e SM
+
+Em que momento acontece o Refinamento?
+
+um passo antes da Planning no final da sprint anterior
+
+Qual o principal objetivo da Review?
+
+Verificar se a demanda agrega valor ao negócio.

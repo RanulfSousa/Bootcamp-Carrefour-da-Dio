@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ranulf"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-11 01:58:54 "/>
+        <attribute name="created" value="UmFudWxmO0xBUFRPUC1BTEhUMEhUUjsyMDIyLTA0LTExOyIwMTo0NToyOCAiOzI4OTU="/>
+        <attribute name="edited" value="UmFudWxmO0xBUFRPUC1BTEhUMEhUUjsyMDIyLTA0LTExOyIwMTo1ODo1NCAiOzE7MzAwNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="nota1, nota2, media" type="Integer" array="False" size=""/>
+            <output expression="&quot; Digite o nome do aluno: &quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot; Digite a nota da prova: &quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Digite a nota do trabalho: &quot;" newline="True"/>
+            <input variable="nota2"/>
+            <assign variable="media" expression="(nota1+nota2)/2"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="&quot; O aluno &quot; &amp;nome &amp;  &quot; tirou nota &quot; &amp;nota1 &amp; &quot; na prova e nota &quot; &amp;nota2  &amp; &quot; no trabalho e  foi aprovado.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot; O aluno &quot; &amp;nome &amp;  &quot; tirou nota &quot; &amp;nota1 &amp; &quot; na prova e nota &quot; &amp;nota2  &amp; &quot; no trabalho e  foi reprovado.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

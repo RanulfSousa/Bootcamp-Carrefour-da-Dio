@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ranulf"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-11 02:17:38 "/>
+        <attribute name="created" value="UmFudWxmO0xBUFRPUC1BTEhUMEhUUjsyMDIyLTA0LTExOyIwMjowODoyMCAiOzI4ODc="/>
+        <attribute name="edited" value="UmFudWxmO0xBUFRPUC1BTEhUMEhUUjsyMDIyLTA0LTExOyIwMjowOTozMyAiOzE7UmFudWxmO0xBUFRPUC1BTEhUMEhUUjsyMDIyLTA0LTExOyIwMTo0NToyOCAiO2NvbmNhdGVuYcOnw6NvLmZwcmc7Nzk5OQ=="/>
+        <attribute name="edited" value="UmFudWxmO0xBUFRPUC1BTEhUMEhUUjsyMDIyLTA0LTExOyIwMjoxNzozOCAiOzE7MzAwNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite, tabu" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="1"/>
+            <assign variable="limite" expression="10"/>
+            <output expression="&quot; A tabuada do 9 &quot;" newline="True"/>
+            <while expression="numero&lt;=limite">
+                <assign variable="tabu" expression="9*numero"/>
+                <output expression="&quot; 9 x &quot; &amp;numero  &amp; &quot; = &quot; &amp;tabu" newline="True"/>
+                <assign variable="numero" expression="numero+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
