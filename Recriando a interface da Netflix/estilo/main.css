@@ -1,0 +1,100 @@
+/*Variáveis das cores do site*/
+:root{
+    --vermelho:rgba(224, 36, 15);
+    --preta:rgba(20,20,20);
+}
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Elementos principais*/
+body{
+    background: var(--preta);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo{
+    margin-left: 10px;
+    color: var(--vermelho);
+    font-family: 'Segoe UI';
+    font-size: 45px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:#fff
+}
+
+/*filme principal*/
+/* wrapper = envelopar - guarda varios elementos facilitando manipulação dos mesmos*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('../imagem/SpeedRacer.jpg') no-repeat;
+    height: 400px;
+    background-size: cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: flex-start;
+
+}
+.filme-principal .descricao{
+    margin-bottom: 30px;
+    font-size: 8px;
+}
+.filme-principal .container{
+    margin-left: 20px;
+}
+   
+
+.titulo{
+    font-size: 50px;
+}
+
+/*botões*/
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+    padding: auto;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 20px;
+}
+
